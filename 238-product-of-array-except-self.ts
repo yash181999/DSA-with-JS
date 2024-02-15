@@ -15,7 +15,7 @@ function productExceptSelf(nums: number[]): number[] {
     const result:number[] = []
     for(let i=0; i<n; i++) {
         const product = left[i] * right[i]
-        result.push(product)
+        result.push(product) 
     }
 
     return result;
