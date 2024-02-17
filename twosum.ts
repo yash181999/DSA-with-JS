@@ -1,5 +1,5 @@
-//Optmised Approach
-function twoSumOptimised(nums: number[], target: number): number[] {
+//Optimized Approach
+function twoSumOptimized(nums: number[], target: number): number[] {
   const track = {};
 
   for (let i = 0; i < nums.length; i++) {
